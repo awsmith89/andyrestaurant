@@ -7,10 +7,29 @@ s-light: #66ffa6
 s-dark: #00b248
 
 
-*/
+/* global styles */
 
-body { background color red
+
+body { background-color: red
 }
 
 h1,
-h2 {font-family: 'Oswald', sans-serif;}
+h2 {
+    text-align: center
+    font-family: 'Oswald', sans-serif;}
+
+    h1 {font-size: x-large}
+
+    ul {
+        display: inline-block
+
+    }
+header li {
+    text-align: center;
+    font-size: 90px;
+    margin: 0 15px;
+}
+
+footer a {
+    font-size: 64px
+}
